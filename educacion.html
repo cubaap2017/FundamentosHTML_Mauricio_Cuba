@@ -39,7 +39,7 @@
         </thead>
         <tbody>
           <tr>
-            <td>1980-1992</td>
+            x<td>1980-1992</td>
             <td>La Salle</td>
             <td>La Paz</td>
             <td>Colegiatura Primaria y Secundaria</td>
@@ -75,10 +75,40 @@
           </tr>
         </tbody>
       </table>
+      <h2>Agregar Estudios</h2>
+      <form>
+        <p>
+          <strong>Año: </strong>
+          <select class="year" name="Año">
+            <option value="año1">2017</option>
+            <option value="año2">2018</option>
+            <option value="año2">2019</option>
+          </select>
+        </p>
+        <p>
+          <strong>Institucion: </strong>
+          <input type="text" maxlength="50" placeholder="Ingrese Institucion">
+        </p>
+        <p>
+          <strong>Lugar: </strong>
+          <input type="text" maxlength="50" placeholder="Ingrese Ciudad">
+        </p>
+        <p>
+          <strong>Descripcion: </strong>
+          <textarea name="descripcion" id="descripcion" rows="4" cols="35" placeholder="Describa el curso, taller, etc."></textarea>
+        </p>
+        <p>
+          <strong>Culmino?: </strong>
+          <input type="radio" name="si_culmino"> SI <input type="radio" name="no_culmino"> NO
+        </p>
+      	<p>
+          <input type="submit" value="Enviar">
+        </p>
+      </form>
     </nav>
     <footer>
       <p>
-        <strong>Informacion de Contacto:</strong>
+        <h2><strong>Informacion de Contacto:</strong></h2>
         <ul>
           <li><strong>Telefono:</strong> 591-22720803</li>
           <li><strong>Telefono Celular:</strong> 591-71593364</li>
